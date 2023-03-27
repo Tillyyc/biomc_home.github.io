@@ -29,10 +29,6 @@ feature_image: "assets/biomat_temp_img.jpg"
 
 ## Icon include
 
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
+{% include icon.html id="email" title="email" %} [{% include icon.html id="linkedin" title="linkedin" %}](https://www.linkedin.com/in/daviddarnes)
 
-``` html
-{% raw %}{% include icon.html id="email" title="email" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
 
