@@ -8,11 +8,7 @@ feature_image: ""
 aside: true
 ---
 
-# Contacts
-
-
-
-## Demo map embed
+### Demo map embed
 
 {% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
 
@@ -36,7 +32,7 @@ aside: true
 {% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
 
 ``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
+{% raw %}{% include icon.html id="email" title="email" %}
 [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
 ```
 
