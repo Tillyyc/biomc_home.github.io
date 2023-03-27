@@ -1,7 +1,7 @@
 ---
-title: Publications
+title: Contacts
 feature_text: |
-  ## BioMC - Publications
+  ## BioMC - Contacts
   University of Toronto Biomaterials Manufacturing Cluster (BioMC)
 feature_image: ""
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
