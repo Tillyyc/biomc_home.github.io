@@ -1,9 +1,13 @@
 ---
 title: Publications
-layout: categories
-excerpt: "Category index"
-aside: true
+feature_text: |
+  ## BioMC - Publications
+  University of Toronto Biomaterials Manufacturing Cluster (BioMC)
+feature_image: ""
+# excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
+
+
 * Perfluorocarbon nanodroplets can reoxygenate hypoxic tumors in vivo without carbogen breathing 2019; Nanotheranostics; Xiang, Y. | Bernards, N. | Hoang, B. | Zheng, J. | Matsuura, N.
 * Multiwavelength Surface-Enhanced Raman Spectroscopy Using Rainbow Trapping in Width-Graded Plasmonic Gratings 2018; Advanced Optical Materials; Kazemi-Zanjani, N. | Shayegannia, M. | Prinja, R. | Montazeri, A.O. | Mohammadzadeh, A. |…
 * Multispectral SERS using plasmonic width-graded nanogratings 2018; Proceedings of SPIE – The International Society for Optical Engineering; Shayegannia, M. | Montazeri, A.O. | Kazemi-Zanjani, N. | Prinja, R. | Mohammadzadeh, A. |…
