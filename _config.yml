@@ -122,15 +122,15 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: biomc_home.github.io/
+  url: /
 - title: Elements
-  url: biomc_home.github.io/elements/
+  url: /elements/
 - title: Blog
-  url: biomc_home.github.io/blog/
+  url: /blog/
 - title: Categories
-  url: biomc_home.github.io/categories/
+  url: /categories/
 - title: Search
-  url: biomc_home.github.io/search/
+  url: /search/
 
 
 navigation_footer:
