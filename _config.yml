@@ -123,11 +123,13 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Projects
+- title: Research
   url: /elements/
-- title: Blog
+- title: People
   url: /blog/
-- title: Categories
+- title: Publications
+  url: /categories/
+- title: Contacts
   url: /categories/
 - title: Search
   url: /search/
@@ -135,7 +137,7 @@ navigation_header:
 
 navigation_footer:
 - title: Created by BioMc Research Group
-  url: https://darn.es
+  url: https://tillyyc.github.io/biomc_home.github.io/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
