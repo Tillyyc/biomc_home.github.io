@@ -37,17 +37,17 @@ plugins:
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+# jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+# twitter:
+#   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+# author: DavidDarnes # jekyll-seo-tag > default author
+# social: # jekyll-seo-tag > social overrides
+#   name: David Darnes # jekyll-seo-tag > real name
+#   links:  # jekyll-seo-tag > social aliases (sameAs)
+#     - https://twitter.com/DavidDarnes
+#     - https://www.facebook.com/daviddarnes
+#     - https://www.linkedin.com/in/daviddarnes
+#     - https://github.com/daviddarnes
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -97,7 +97,7 @@ title: "BioMc" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "BioMc Research Group from University of Toronto"
 url: "https://tillyyc.github.io/biomc_home.github.io/" # Site url, also used in jekyll-seo-tag
-baseurl: "https://tillyyc.github.io/biomc_home.github.io/"
+baseurl: "biomc_home.github.io/"
 repo: "https://tillyyc.github.io/biomc_home.github.io/"
 email: "biomc@utoronto.mail.ca"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -123,7 +123,7 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Elements
+- title: Projects
   url: /elements/
 - title: Blog
   url: /blog/
