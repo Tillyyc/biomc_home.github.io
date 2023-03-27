@@ -3,13 +3,13 @@ title: About BioMC
 feature_text: |
   ## BioMC
   University of Toronto Biomaterials Manufacturing Cluster (BioMC)
-feature_image: "assets/biomaterial-image.jpeg"
+feature_image: ""
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
 [The U of T Biomaterials Manufacturing Cluster (BioMC) is an interdisciplinary collaborative network of researchers focusing on ....]
 
-{% include button.html text="Linkedin" icon="linkedin" link="https://www.linkedin.com/company/materials-science-engineering-university-of-toronto/" color="#0000ffff" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#0000ffff" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0000ffff" %}
+{% include button.html text="Linkedin" icon="linkedin" link="https://www.linkedin.com/company/materials-science-engineering-university-of-toronto/"%} {% include button.html text="Email" link="biomc@mail.utoronto.ca"%} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" %}
 
 ## Features
 
