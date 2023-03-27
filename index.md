@@ -14,4 +14,4 @@ feature_image: ""
 ## Upcoming Events
 
 - Event 1
-- [Event 2](https://https://mse.utoronto.ca/)
+- [Event 2](https://mse.utoronto.ca/)
