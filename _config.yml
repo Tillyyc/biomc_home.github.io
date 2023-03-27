@@ -97,7 +97,7 @@ title: "BioMc" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "BioMc Research Group from University of Toronto"
 url: "https://tillyyc.github.io/biomc_home.github.io/" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+baseurl: "https://tillyyc.github.io/biomc_home.github.io/"
 repo: "https://tillyyc.github.io/biomc_home.github.io/"
 email: "biomc@utoronto.mail.ca"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
