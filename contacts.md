@@ -10,13 +10,11 @@ feature_image: "assets/biomat_temp_img.jpg"
 
 ### Demo map embed
 
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
+{% include map.html id="ChIJkWTJcMc0K4gRgq1l8YTVR5o" title="Department of Materials Science and Engineering University of Toronto" %}
 
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
 
-## Button include
+
+<!-- ## Button include
 
 {% include button.html text="A button" link="https://david.darn.es" %}
 
@@ -29,6 +27,6 @@ feature_image: "assets/biomat_temp_img.jpg"
 
 ## Icon include
 
-{% include icon.html id="email" title="email" %} [{% include icon.html id="linkedin" title="linkedin" %}](https://www.linkedin.com/in/daviddarnes)
+{% include icon.html id="email" title="email" %} [{% include icon.html id="linkedin" title="linkedin" %}](https://www.linkedin.com/in/daviddarnes) -->
 
 
