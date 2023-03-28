@@ -10,7 +10,7 @@ feature_image: "assets/biomat_temp_img.jpg"
 
 ### Demo map embed
 
-{% include map.html id="ChIJkWTJcMc0K4gRgq1l8YTVR5o" title="Department of Materials Science and Engineering University of Toronto" %}
+{% include map.html id="ChIJm_0x87g0K4gR93ZadrabHY0" title="Department of Materials Science and Engineering University of Toronto" %}
 
 
 
