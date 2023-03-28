@@ -1,9 +1,17 @@
-- name: Example student name
+- name: name 1
   photo: rock.jpg
   info: Postdoc, started Oct 2040
   email: exampleemail@gmail.com
   website: https://website.com
 
-- name: "This could be you !"
+- name: name 2
   photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+  info: Postdoc, started Oct 2040
+  email: exampleemail@gmail.com
+  website: https://website.com
+
+- name: name 3
+  photo: rock.jpg
+  info: Postdoc, started Oct 2040
+  email: exampleemail@gmail.com
+  website: https://website.com
