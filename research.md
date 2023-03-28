@@ -1,10 +1,10 @@
 ---
-title: Elements
+title: Research Area
 feature_text: |
-  A demo of Markdown and HTML includes
-feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
-aside: true
+  ## BioMC - Research Area
+  University of Toronto Biomaterials Manufacturing Cluster (BioMC)
+feature_image: "assets/biomat_temp_img.jpg"
+# excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
 ##### Research Area 1
