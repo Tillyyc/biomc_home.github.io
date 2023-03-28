@@ -24,6 +24,7 @@ feature_image: "assets/biomat_temp_img.jpg"
 
 ###### Project 2.2
 [Description for project 1.2] \
+[A link for project 2](https://www.engineering.utoronto.ca/ "A link for project 2")
 <small>Video of Project 2.2</small>
 {% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
 
