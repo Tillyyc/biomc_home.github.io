@@ -7,14 +7,15 @@ feature_image: "assets/biomat_temp_img.jpg"
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-##### Research Area 1
+#### Research Area 1
 [Description for Research Area 1]
 ###### Project 1.1
 [Description for project 1.1]
 ###### Project 1.2
 [Description for project 1.2]
 
-##### Research Area 2
+
+#### Research Area 2
 [Description for Research Area 2]
 ###### Project 2.1
 [Description for project 1.2]
