@@ -21,7 +21,10 @@ feature_image: "assets/biomat_temp_img.jpg"
 [Description for project 1.2]
 ###### Project 2.2
 [Description for project 1.2]
-
+<small>Picture of Project 2.2</small>
+{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+<small>Video of Project 2.2</small>
+{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
 
 <!-- <small>A small element</small>
 
