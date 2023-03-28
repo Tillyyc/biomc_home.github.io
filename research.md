@@ -7,19 +7,22 @@ excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
 
-# Heading 1
+##### Research Area 1
+[Description for Research Area 1]
+###### Project 1.1
+[Description for project 1.1]
+###### Project 1.2
+[Description for project 1.2]
 
-## Heading 2
+##### Research Area 2
+[Description for Research Area 2]
+###### Project 2.1
+[Description for project 1.2]
+###### Project 2.2
+[Description for project 1.2]
 
-### Heading 3
 
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<small>A small element</small>
+<!-- <small>A small element</small>
 
 [A link](https://david.darn.es "A link")
 
@@ -141,4 +144,4 @@ blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
 {% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
 
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-```
+``` -->
