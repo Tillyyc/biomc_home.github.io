@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Research Area
 feature_text: |
   ## BioMC - Research Area
@@ -7,7 +7,7 @@ feature_image: "assets/biomat_temp_img.jpg"
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-#### University of Toronto
+#### Current Team Members
 ###### People 1
 <small>Photo & Intro</small>
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
@@ -17,7 +17,7 @@ feature_image: "assets/biomat_temp_img.jpg"
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
 
 
-#### University of Tokyo
+#### Alumni
 ###### People 1
 <small>Photo & Intro</small>
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
@@ -27,137 +27,123 @@ feature_image: "assets/biomat_temp_img.jpg"
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
 
 
-#### The University of Manchester
-###### People 1
-<small>Photo & Intro</small>
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+ -->
 
-###### People 2
-<small>Photo & Intro</small>
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+---
+title: "Team"
+layout: gridlay
+sitemap: false
+permalink: /team/
+---
 
+## Team
 
+ **We are  looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-<!-- <small>A small element</small>
+## Supervisor
 
-[A link](https://david.darn.es "A link")
+{% for member in site.data.pi %}
 
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+<div class="jumbotron">
+<div class="row">
+<div class="col-sm-2">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+</div>
+<div class="col-sm-9 col-xs-12">
+<h4>{{ member.name }}</h4>
+<i>{{ member.info }}</i><br>
 
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
+{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %} {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %} {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %} {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %} {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %} {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+<ul style="overflow: hidden">
+<li> {{ member.education1 }} </li>
+<li> {{ member.education2 }} </li>
+</ul>
+</div>
+</div>
+</div>
 
-* An item
-* An item
-* An item
-* An item
-* An item
-
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
-
-> A simple blockquote
-
-Some HTML...
-
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
-
-...CSS...
-
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
-
-...and JavaScript
-
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-``` html
-{% raw %}{% include site-form.html %}{% endraw %}
-```
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-``` html
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}{% endraw %}
-```
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-``` html
-{% raw %}{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}{% endraw %}
-```
+{% endfor %}
 
 
-### Image includes
+## Current Students and Postdocs
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+<div class='jumbotron'>
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+<div class="col-sm-2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+</div>
+<div class="col-sm-4 col-xs-12">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br></i>
 
-``` html
-{% raw %}{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+  {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
+  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
+  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+  {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+</div>
+<!-- </div> -->
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
+{% assign number_printed = number_printed | plus: 1 %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-``` -->
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+</div>
+
+
+## Alumni
+
+<div class="jumbotron">
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+</div>
+<div class="col-sm-4 col-xs-12">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <ul style="overflow: hidden">
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+</div>
+
+
+## Administrative Support
+
+<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.

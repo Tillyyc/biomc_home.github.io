@@ -1,0 +1,22 @@
+- name: Dr. Naomi Matsuura
+  photo: headshot.jpg
+  info: Naomi Matsuura Associate Professor, University of Toronto
+  email: naomi.matsuura@utoronto.ca
+  github: https://github.com/
+  researchgate: https://www.researchgate.net/
+  scholar: https://www.semanticscholar.org/author/N.-Matsuura/7007984
+  cv: cv/cv.pdf
+  # Change the number below to the number of "educations" you have (up to 6)
+  number_educ: 2
+  education1: "BScEng, MScEng (Queen’s University)"
+  education2: "PhD (University of Toronto)"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  education1short: BScEng, MScEng (Queen’s)
+  education2short: PhD (Toronto), PEng
+  # education3short: 
+  # education4short: 
+  # education5short: 
+  # education6short: 
