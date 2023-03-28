@@ -18,11 +18,12 @@ feature_image: "assets/biomat_temp_img.jpg"
 #### Research Area 2
 [Description for Research Area 2]
 ###### Project 2.1
-[Description for project 1.2]
-###### Project 2.2
-[Description for project 1.2]
+[Description for project 1.2] \
 <small>Picture of Project 2.2</small>
 {% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+
+###### Project 2.2
+[Description for project 1.2] \
 <small>Video of Project 2.2</small>
 {% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
 
